@@ -30,3 +30,4 @@ O **Currículo Rodrigo** foi desenvolvido utilizando apenas **HTML** e **CSS**, 
 ![image](https://github.com/user-attachments/assets/14766617-bd05-4f1b-a78f-ad71a5d7afe0)
 
 
+Feito com ❤️ por Rodrigo Falcão
