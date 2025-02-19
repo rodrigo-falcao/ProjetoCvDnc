@@ -2,7 +2,7 @@
 
 Este é um projeto simples de Curriculum Vitae em formato de site. Nele, você encontra informações essenciais como contato, habilidades, formação acadêmica e experiências profissionais, tudo apresentado de forma elegante e responsiva.
 
-
+Veja o projeto online: [Currículo DNC - Projeto CV DNC](https://rodrigo-falcao.github.io/ProjetoCvDnc/)
 
 ## Visão Geral
 
