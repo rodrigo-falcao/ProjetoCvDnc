@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    h1, h2, h3, h4, h5 {
+        text-transform: uppercase;
+    }
+}
+
+/* --HEADER SITE-- */
+#header {
+    background-color: rgb(226, 200, 165);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nameAndTitle{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+
+    h1, h2 {
+        margin: 0;
+    }
+}
+
+/* --CONTAINER SITE-- */
+
+#container {
+    margin: auto 80px;
+    display: grid;
+    grid-template-columns: 35% auto;
+    grid-column-gap: 20px;
+    padding-bottom: 80px;
+}
+
+.card {
+    font-family: montserrat;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+    h3 {
+        font-family: "Hubballi", serif;
+    }
+    h5 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* -SIDEBAR- */
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color:rgb(134, 97, 55)
+    }
+}
+
+#sidebar {
+    justify-content: space-between;
+}
+
+#contact{
+    list-style-type: none;
+    i {
+        width: 20px;
+        color: rgb(226, 200, 165);
+    }
+}
+
+/* -----Para telas médias----- */
+@media (max-width: 1024px) {
+    #container {
+        margin: auto 20px;
+        display: grid;
+        grid-template-columns: 45% auto;
+        grid-column-gap: 10px;
+    }
+  }
+  
+/* -----Para telas pequenas----- */
+@media (max-width: 768px) {
+    #container {
+        margin: auto 20px;
+        display: grid;
+        grid-template-columns: none;
+        grid-column-gap: 10px;
+        gap: 20px;
+    }
+
+    .card{
+        h3, ul {
+            margin: 0 5px;
+            padding-top: 15px;
+        }
+
+        p {
+            margin: 0 15px;
+        }
+    }
+
+}
+  
+/* -----Para telas muito pequenas----- */
+@media (max-width: 480px) {
+    #nameAndTitle{
+        background-color: white;
+        text-align: center;
+        width: 200px;
+        margin: 10px auto;
+    
+        h1, h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+
+    #content .card {
+        h3 {
+            padding-bottom: 10px;
+        }
+    }
+    #container {
+        margin: auto 20px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 10px;
+        gap: 20px;
+    }
+    #content {
+        padding-bottom: 100px;
+    }
+}
